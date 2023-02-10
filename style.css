@@ -827,6 +827,39 @@ h4 {
   background-image: url("img/image-de-presentation.webp");
 }
 
+ul {
+  list-style-type: none;
+  display: flex;
+}
+
+ul li:first-child {
+  margin-right: 3rem;
+}
+
+.hover-underline-animation {
+  position: relative;
+  padding: 0.5rem 0;
+  font-size: 1.5rem;
+}
+
+.hover-underline-animation::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: #575757;
+  transform-origin: bottom right;
+  transition: transform 250ms ease-out;
+}
+
+.hover-underline-animation:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
 @media (max-width: 1024px) {
   .bloc {
     padding-left: 20px;
