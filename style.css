@@ -888,6 +888,11 @@ footer .col-sm-4 {
   color: black;
 }
 
+#bloc-4-portfolio img {
+  height: 270px;
+  width: 270px;
+}
+
 @media (max-width: 1024px) {
   .bloc {
     padding-left: 20px;
