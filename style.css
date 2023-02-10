@@ -712,7 +712,7 @@ h2 {
 }
 
 h3 {
-  font-size: 15px;
+  font-size: 20px;
   text-transform: uppercase;
   font-weight: 700;
   color: #333333;
@@ -755,7 +755,7 @@ h4 {
 }
 
 .black-background {
-  background-color: rgba(165, 147, 99, 0.7);
+  background-color: rgba(113, 97, 52, 0.7);
   padding: 40px 40px 40px 40px;
 }
 
@@ -792,10 +792,15 @@ h4 {
 
 .ltc-white {
   color: #ffffff;
+  display: block;
+  width: 100%;
+  text-align: center;
 }
 
 .ltc-white:hover {
-  color: #cccccc;
+  text-decoration: underline;
+  color: white;
+  font-size: 1.5rem;
 }
 
 .ltc-atomic-tangerine {
@@ -1061,6 +1066,16 @@ h4 {
     width: 180px;
     height: 320px;
   }
+}
+
+.bloc-5-title {
+  position: relative;
+  z-index: 20;
+}
+
+.contact-us {
+  color: white;
+  font-size: 1.5rem;
 }
 
 @media (max-width: 400px) {
