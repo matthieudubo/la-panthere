@@ -284,7 +284,7 @@ a:hover {
 }
 
 #bloc-1-hero h1 {
-  font-size: 32px;
+  font-size: 4rem;
 }
 
 .navbar {
@@ -777,12 +777,12 @@ h4 {
 }
 
 .tc-white {
-  color: #f3976c;
+  color: white;
 }
 
 .btn-atomic-tangerine {
   background: #f3976c;
-  color: #ffffff;
+  color: #000;
 }
 
 .btn-atomic-tangerine:hover {
@@ -827,12 +827,12 @@ h4 {
   background-image: url("img/image-de-presentation.webp");
 }
 
-ul {
+.site-navigation {
   list-style-type: none;
   display: flex;
 }
 
-ul li:first-child {
+.site-navigation li:first-child {
   margin-right: 3rem;
 }
 
