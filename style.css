@@ -90,11 +90,6 @@ a:hover {
   right: 0;
 }
 
-.texture-paper::before {
-  background: url("img/texture-paper.webp");
-  background-size: 280px 280px;
-}
-
 .b-parallax {
   background-attachment: fixed;
 }
@@ -779,6 +774,10 @@ h4 {
   color: white;
 }
 
+.tc-black {
+  color: black;
+}
+
 .btn-atomic-tangerine {
   background: #f3976c;
   color: #000;
@@ -812,10 +811,6 @@ h4 {
 .icon-dark-slate-blue {
   color: #364577;
   border-color: #364577;
-}
-
-.bg-dots-bg {
-  background-image: url("img/dots-bg.webp");
 }
 
 .bg-lines-h2-bg {
@@ -894,6 +889,27 @@ footer .col-sm-4 {
 #bloc-4-portfolio img {
   height: 270px;
   width: 270px;
+}
+
+.container-form {
+  display: flex;
+  justify-content: center;
+}
+
+.form {
+  width: 50%;
+}
+
+.form textarea {
+  max-width: 100%;
+}
+
+.form .btn {
+  margin-bottom: 1.5rem;
+}
+
+.form label {
+  font-size: 1.5rem;
 }
 
 @media (max-width: 1024px) {
