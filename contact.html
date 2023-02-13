@@ -105,31 +105,41 @@
           <div class="form">
             <form id="form_1" novalidate>
               <div class="form-group">
-                <label> Nom </label>
-                <input id="name" class="form-control" required />
+                <label for="name"> Nom </label>
+                <input id="name" class="form-control" name="name" required />
               </div>
               <div class="form-group">
-                <label> Adresse email </label>
-                <input id="email" class="form-control" type="email" required />
+                <label for="email"> Adresse email </label>
+                <input
+                  id="email"
+                  class="form-control"
+                  type="email"
+                  name="email"
+                  required
+                />
               </div>
               <div class="form-group">
-                <label> Comment nous avez-vous connu ? </label>
+                <label for="information">
+                  Comment nous avez-vous connu ?
+                </label>
                 <input
                   class="form-control"
                   type="email"
                   required
                   id="input_504"
+                  name="information"
                 />
               </div>
               <div class="form-group">
-                <label>
+                <label for="description">
                   Brief de votre projet (Ajoutez autant de détails que
-                  nécessaire)<br /> </label
+                  nécessaire)</label
                 ><textarea
                   id="message"
                   class="form-control"
                   rows="4"
                   cols="50"
+                  name="description"
                   required
                 ></textarea>
               </div>

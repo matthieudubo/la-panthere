@@ -900,6 +900,10 @@ footer .col-sm-4 {
   width: 50%;
 }
 
+.form textarea {
+  max-width: 100%;
+}
+
 .form .btn {
   margin-bottom: 1.5rem;
 }
