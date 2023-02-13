@@ -511,6 +511,11 @@ button {
   opacity: 0;
   z-index: 500;
   transition: all 0.3s ease-in-out;
+  display: flex;
+}
+
+.scrollToTop:focus {
+  outline: none;
 }
 
 .scrollToTop span {
