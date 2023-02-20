@@ -1181,6 +1181,7 @@ footer .col-sm-4 {
 @media screen and (max-width: 340px) {
   .logo-navbar {
     width: 150px;
+    height: auto;
   }
 }
 
