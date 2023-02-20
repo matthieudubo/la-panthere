@@ -838,6 +838,7 @@ h4 {
 .site-navigation {
   list-style-type: none;
   display: flex;
+  padding-left: 0;
 }
 
 .hover-underline-animation {
