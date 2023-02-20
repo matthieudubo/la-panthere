@@ -700,9 +700,18 @@ p {
   font-weight: 700;
 }
 
+.container-socials {
+  display: flex;
+  justify-content: center;
+}
+
 .social {
-  max-width: 400px;
-  margin: 4rem auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 4rem;
 }
 
 h2 {
